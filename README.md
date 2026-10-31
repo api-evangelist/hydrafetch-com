@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hydrafetch-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hydrafetch.com/
+Hydrafetch provides a web‑scraping API that converts any URL into clean Markdown and structured data for AI models. It offers endpoints for crawling, searching, extracting page content, and handling pagination, all with a simple credit‑per‑page pricing model. The service aims to simplify data acquisition for developers building LLM‑powered applications.
+
+**Areas:** Web Scraping · Data Extraction · API · Automation · Markdown
+
+## hydrafetch-com on APIs.io
+
+Everything profiled for hydrafetch-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hydrafetch-com/](https://apis.io/providers/hydrafetch-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [hydrafetch-com Brand API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-brand-api/) — Resolve a domain into the company ready to render: logos for light and dark, the palette ranked by how the site uses it, fonts, socials, and the design…
+- [hydrafetch-com Crawl & batch API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-crawl-batch-api/) — Whole sites rather than single pages. Map every URL, crawl with depth and path rules, batch a list you already have, and read the webhook deliveries for either.
+- [hydrafetch-com Extract API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-extract-api/) — Pull schema-shaped JSON out of one or many pages, with optional per-field confidence and the source passage behind each value.
+- [hydrafetch-com Feedback API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-feedback-api/) — The Feedback API from hydrafetch-com — 1 operation(s) for feedback.
+- [hydrafetch-com Logo API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-logo-api/) — The Logo API from hydrafetch-com — 1 operation(s) for logo.
+- [hydrafetch-com Media API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-media-api/) — Images and screenshots from a page, with source and alt text, or a rendered capture of the page as it appears.
+- [hydrafetch-com Scrape API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-scrape-api/) — Turn one URL into clean, LLM-ready content. Ask for Markdown, HTML, links, or the page’s own structured data, and poll a job id when a fetch runs long.
+- [hydrafetch-com Search API](https://apis.io/apis/hydrafetch-com/hydrafetch-com-search-api/) — Search the web and get the ranked results back already scraped, so an agent has content to cite rather than links to fetch.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hydrafetch Com Agentic Access](https://apis.io/agentic-access/hydrafetch-com/hydrafetch-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CrawlRequestDto](https://apis.io/schemas/hydrafetch-com/hydrafetch-com-crawl-request-dto/)
+- [ExtractRequestDto](https://apis.io/schemas/hydrafetch-com/hydrafetch-com-extract-request-dto/)
+- [MapRequestDto](https://apis.io/schemas/hydrafetch-com/hydrafetch-com-map-request-dto/)
+- [ScrapeFormatRequestDto](https://apis.io/schemas/hydrafetch-com/hydrafetch-com-scrape-format-request-dto/)
+- [ScrapeRequestDto](https://apis.io/schemas/hydrafetch-com/hydrafetch-com-scrape-request-dto/)
+- [ScreenshotRequestDto](https://apis.io/schemas/hydrafetch-com/hydrafetch-com-screenshot-request-dto/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hydrafetch Com Context](https://apis.io/jsonld/hydrafetch-com/hydrafetch-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [hydrafetch-com API Rules](https://apis.io/rules/hydrafetch-com/hydrafetch-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hydrafetch Com Authentication](https://apis.io/security/hydrafetch-com/hydrafetch-com-authentication/)
+- [Hydrafetch Com Domain Security](https://apis.io/security/hydrafetch-com/hydrafetch-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Hydrafetch Com Scopes](https://apis.io/scopes/hydrafetch-com/hydrafetch-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hydrafetch Com Plans Pricing](https://apis.io/plans/hydrafetch-com/hydrafetch-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Hydrafetch Com Rate Limits](https://apis.io/rate-limits/hydrafetch-com/hydrafetch-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hydrafetch.com/)
+- [Documentation](https://docs.hydrafetch.com/)
+- [Getting started](https://docs.hydrafetch.com/quickstart)
+- [API reference](https://docs.hydrafetch.com/api-reference)
+- [Pricing](https://hydrafetch.com/pricing/)
+- [Sign up](https://app.hydrafetch.com/)
+- [Blog](https://hydrafetch.com/blog/)
+- [Terms of service](https://hydrafetch.com/terms/)
+- [Privacy policy](https://hydrafetch.com/privacy/)
+- [GitHub](https://github.com/hydrafetch)
+
+## API Evangelist rating
+
+**Kin Score 61.3** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 64.8 |
+| Contract governance | 70.9 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 69.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hydrafetch-com/](https://apis.io/providers/hydrafetch-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for hydrafetch-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hydrafetch-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
